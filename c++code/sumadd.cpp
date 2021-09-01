@@ -25,3 +25,5 @@ int main() {
 		cout << i << endl;
 	return 0 ;
 }
+
+//编译测试2
