@@ -19,11 +19,12 @@ int main() {
 	Solution solution;
 	vector<int> position;
 	vector<int> arr = {1,2,3,4,5,6,7,8,9};
-	int target = 5;
+	int target = 3;
 	position = solution.twoSum(arr,target);
-	for(auto i : position)
-		cout << i << endl;
-	return 0 ;
+	for(int i:position)
+		cout<<i <<endl;
+	return 0;
+	
 }
 
-//编译测试2
+//编译测试1
